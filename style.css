@@ -18,12 +18,12 @@
  }
  
  .navbar-links a{
-   text decoration: none;
+   text-decoration: none;
    color: #1D232C;
  }
  
  .navbar-links a:hover{
-   text decoration: underline;
+   text-decoration: underline;
    color: #1D232C;
  }
  
@@ -53,12 +53,12 @@
  }
  
  .side-navbar-links a{
-   text decoration : none;
+   text-decoration : none;
    color: white;
  }
  
  .side-navbar-links a:hover{
-   text decoration : underline;
+   text-decoration : underline;
    
  }
  
@@ -106,7 +106,7 @@
  .new-arrival{
    display: flex;
    justify-content: space-between;
-   flex wrap: wrap;
+   flex-wrap: wrap;
  }
  
  .new-arrival-container{
@@ -118,7 +118,7 @@
    padding-left: 10%;
    padding-right: 10%;
    padding-top: 5%;
-   padding-bottom; 5%;
+   padding-bottom:5%;
    margin-top: 10px;
    color: #1D232C;
    position : absolute;
@@ -130,7 +130,7 @@
     
  .news{
    display: flex;
-   flex direction: column;
+   flex-direction: column;
    align-items: center;
    margin-top: 20px;
  }
@@ -178,10 +178,9 @@
    width: 100%;
  }
   
- .product-search input: focus{
-   outlier: none;
+ .product-search input:focus{
+   outline: none;
  }
- 
  .products{
    padding: 20px;
    display: flex;
